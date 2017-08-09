@@ -140,7 +140,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
+    font-size: 220%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -273,8 +273,8 @@ HEADER
 ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fb1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fb1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -401,7 +401,7 @@ MEALS
 .meals-showcase li {
     display: block;
     float: left;
-    width: 25%;
+    width: 33.33333%;
     
     /* A student once had to do this
     overflow: hidden;
@@ -562,8 +562,8 @@ TESTIMONIALS
 ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/temp_170809_0015.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/temp_170809_0015.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -606,6 +606,10 @@ SIGN UP
 
 .section-plans {
     background-color: #f4f4f4;
+}
+
+.section-plans .row i, .section-plans .row p{
+    text-align: center;
 }
 
 .plan-box {
