@@ -11,6 +11,15 @@ $(document).ready(function() {
     }, {
       offset: '60px;'
     });
+
+    /* Header icon hover */
+    $('.logo').hover(
+        function() {
+            $('.logo').attr("src", "resources/img/felix-logo-white.png");
+        }, function() {
+            $('.logo').attr("src", "resources/img/felix-logo-header.png");
+        }
+    );
     
     
     /* Scroll on buttons */
