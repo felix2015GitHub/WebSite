@@ -5,7 +5,8 @@ var gulp        = require('gulp'),
     uglify      = require('gulp-uglify'),
     rename      = require("gulp-rename"),
     htmlreplace = require('gulp-html-replace'),
-    minifyHTML  = require('gulp-minify-html');
+    minifyHTML  = require('gulp-minify-html'),
+    connect     = require('gulp-connect');
 
 gulp.task('concat', function() {
   return gulp.src('./app/css/*.css')
@@ -58,8 +59,22 @@ gulp.task('html-replace',function() {
     .pipe(gulp.dest('./dist/'));
 });
 
+gulp.task('serve', function() {
+  connect.server({
+    root: 'dist/',
+    port: 9478,
+    livereload: true
+  });
+});
+
+gulp.task('watch', function () {
+  gulp.watch(['./app/*.html'], ['html-replace']);
+  gulp.watch(['./app/*.css'], ['minify-css', 'html-replace']);
+  gulp.watch(['./app/*.js'], ['uglify', 'html-replace']);
+});
+
 gulp.task('clean', function(cb) {
   return del('dist', cb);
 });
 
-gulp.task('default', ['html-replace','minify-css', 'images', 'fonts', 'libs', 'uglify']);
+gulp.task('default', ['html-replace','minify-css', 'images', 'fonts', 'libs', 'uglify', 'serve', 'watch']);
