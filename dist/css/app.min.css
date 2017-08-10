@@ -1594,7 +1594,7 @@ a:active,a:hover{color:#555;border-bottom:1px solid transparent}
 .btn-full:active,.btn-full:hover{border:1px solid #cf6d17}
 .btn-ghost:active,.btn-ghost:hover{border:1px solid #cf6d17;color:#fff}
 header{background-image:-webkit-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/fb1.jpg);background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/fb1.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed}
-.hero-text-box{position:absolute;width:100%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.hero-text-box{position:absolute;width:95%;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .logo,.logo-black{width:auto;float:left}
 .logo{height:100px;margin-top:20px}
 .logo-black{display:none;height:50px;margin:5px 0}
