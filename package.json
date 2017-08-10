@@ -1,0 +1,33 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "felix website project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp clean && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix2015GitHub/WebSite.git"
+  },
+  "keywords": [
+    "felix"
+  ],
+  "author": "felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felix2015GitHub/WebSite/issues"
+  },
+  "homepage": "https://github.com/felix2015GitHub/WebSite#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
