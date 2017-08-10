@@ -5,6 +5,7 @@
         padding: 0 2%;
     }
     .row { padding: 0 2%; }
+    h1 { font-size: 220%; }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */

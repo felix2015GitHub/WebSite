@@ -62,7 +62,6 @@ gulp.task('html-replace',function() {
 gulp.task('serve', function() {
   connect.server({
     root: 'dist/',
-    port: 9478,
     livereload: true
   });
 });
