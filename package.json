@@ -30,5 +30,8 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.0.1"
   }
 }
